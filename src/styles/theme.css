@@ -1,0 +1,62 @@
+:root {
+  /* Colors - Modern HSL Palette */
+  --bg-primary: hsl(45, 15%, 98%);
+  --bg-secondary: hsl(0, 0%, 100%);
+  --bg-tertiary: hsl(45, 10%, 94%);
+  
+  --text-primary: hsl(240, 6%, 10%);
+  --text-secondary: hsl(240, 4%, 40%);
+  --text-tertiary: hsl(240, 2%, 65%);
+  
+  --border-subtle: hsl(45, 10%, 90%);
+  --border-strong: hsl(240, 4%, 85%);
+  
+  --accent-primary: hsl(240, 6%, 10%);
+  --accent-hover: hsl(240, 6%, 20%);
+  
+  --status-green: hsl(160, 84%, 39%);
+  --status-green-bg: hsl(160, 84%, 96%);
+  --status-amber: hsl(35, 92%, 45%);
+  --status-amber-bg: hsl(35, 92%, 96%);
+  --status-red: hsl(0, 72%, 51%);
+  --status-red-bg: hsl(0, 72%, 96%);
+  --status-blue: hsl(210, 85%, 55%);
+  --status-blue-bg: hsl(210, 85%, 96%);
+
+  /* Spacing & Radii */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-primary: hsl(240, 10%, 4%);
+    --bg-secondary: hsl(240, 10%, 7%);
+    --bg-tertiary: hsl(240, 10%, 10%);
+    
+    --text-primary: hsl(0, 0%, 98%);
+    --text-secondary: hsl(240, 5%, 70%);
+    --text-tertiary: hsl(240, 5%, 45%);
+    
+    --border-subtle: hsl(240, 5%, 15%);
+    --border-strong: hsl(240, 5%, 25%);
+    
+    --accent-primary: hsl(0, 0%, 98%);
+    --accent-hover: hsl(0, 0%, 90%);
+    
+    --status-green-bg: hsla(160, 84%, 39%, 0.1);
+    --status-amber-bg: hsla(35, 92%, 45%, 0.1);
+    --status-red-bg: hsla(0, 72%, 51%, 0.1);
+    --status-blue-bg: hsla(210, 85%, 55%, 0.1);
+  }
+}
